@@ -1,8 +1,11 @@
+import { Voting, Header, Footer } from "./components";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Homepage</h1>
-      <p>Some content</p>
-    </main>
+    <>
+      <Header />
+      <Voting />
+      <Footer />
+    </>
   );
 }

@@ -8,7 +8,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="bg-gray-900 text-white">{children}</body>
+      <body className="overflow-x-hidden bg-gray-900 text-white">
+        {children}
+      </body>
     </html>
   );
 }
